@@ -1,0 +1,16 @@
+﻿@model IEnumerable<mazblog.ViewModels.BlogEntryViewModel>
+<div class="jumbotron">
+    <h1>@ViewBag.Title</h1>
+</div>
+<div class="row">
+    <ul class="list-unstyled">
+        @foreach (var item in Model)
+        {
+            <li>
+                <h4>
+                    @Html.ActionLink(item.Title, "Index", "Article", new { id = item.Url }, null)
+                </h4>                
+            </li>
+        }
+    </ul>
+</div>
