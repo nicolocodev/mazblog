@@ -25,9 +25,9 @@ Todas las pruebas han sido realizadas haciendo uso del Windows Live Writer ([¡Si
 
 ## Acerca del código (Créditos)
 
-* Mucho del código aquí empleado ha sido tomado de la serie de artículos publicados por Ben Foster. Yo solo agregué autenticación y soporte para imágenes
+* Mucho del código aquí empleado ha sido tomado de la [serie de artículos](http://benfoster.io/blog/atompub-aspnet-web-api-part1) publicados por Ben Foster. Yo solo agregué autenticación y [soporte para imágenes](https://nicolocodev.wordpress.com/2013/06/06/web-api-atompub-y-web-api-soporte-para-multimedia/)
 
-* Las “capacidades” del blog han sido definidas haciendo uso del archivo de manifiesto y empleando algunos de los  elementos aquí detallados
+* Las “capacidades” del blog han sido definidas haciendo uso del archivo de manifiesto y empleando algunos de los  elementos [aquí detallados](https://msdn.microsoft.com/en-us/library/bb463260.aspx)
 
 ## TO DO:
 
